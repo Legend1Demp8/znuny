@@ -11,6 +11,14 @@ mv /opt/Znuny-rel-7_3_8/ /opt/znuny
 
 # mariadb
 sudo apt install mariadb-client mariadb-server
+vim /etc/mysql/mariadb.conf.d/50-znuny_config.cnf
+[mysql]
+max_allowed_packet=256M
+[mysqldump]
+max_allowed_packet=256M
+[mysqld]
+innodb_log_file_size = 256M
+max_allowed_packet=256M
 
 # apache2
 sudo apt update && sudo apt install -y apache2 libapache2-mod-perl2
