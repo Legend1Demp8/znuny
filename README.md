@@ -19,6 +19,7 @@ max_allowed_packet=256M
 [mysqld]
 innodb_log_file_size = 256M
 max_allowed_packet=256M
+systemctl restart mariadb
 
 # apache2
 sudo apt update && sudo apt install -y apache2 libapache2-mod-perl2
