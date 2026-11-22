@@ -1,6 +1,6 @@
 # znuny
 
-## Install
+## Install Ubuntu 26.04
 ```
 cd /opt
 curl -L https://github.com/znuny/Znuny/archive/refs/tags/rel-7_3_8.tar.gz -o /opt/znuny-7.3.8.tar.gz
@@ -23,5 +23,9 @@ cp /opt/znuny/Kernel/Config.pm.dist /opt/znuny/Kernel/Config.pm
 
 # set permissions
 /opt/znuny/bin/znuny.SetPermissions.pl
+
+# check perl modules
+sudo apt install libpackage-stash-perl
+/opt/otrs/bin/otrs.CheckModules.pl
 
 ```
