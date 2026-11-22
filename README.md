@@ -96,8 +96,6 @@ sudo apt install libcss-minifier-xs-perl
 sudo apt install libdata-uuid-perl
 sudo apt install libdatetime-perl
 sudo apt install libdbd-mysql-perl
-sudo apt install libdbd-odbc-perl
-sudo apt install libdbd-pg-perl
 sudo apt install libencode-hanextra-perl
 sudo apt install libhash-merge-perl
 sudo apt install libical-parser-perl
@@ -113,6 +111,10 @@ sudo apt install libtext-csv-xs-perl
 sudo apt install libxml-libxml-perl
 sudo apt install libxml-libxslt-perl
 sudo apt install libyaml-libyaml-perl
+
+Вариативно и не обязательно
+sudo apt install libdbd-odbc-perl (MS-SQL)
+sudo apt install libdbd-pg-perl (PostgreSQL)
 
 Было установлено
 sudo apt install libapache2-reload-perl
