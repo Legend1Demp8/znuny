@@ -15,4 +15,7 @@ sudo a2enmod mpm_prefork
 sudo a2enmod perl headers filter
 sudo a2enmod perl headers filter deflate cgi ssl rewrite
 
+# user
+sudo useradd -d /opt/znuny -c 'Znuny user' -g www-data -s /bin/bash -M -N znuny
+
 ```
