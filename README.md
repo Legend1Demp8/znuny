@@ -7,4 +7,12 @@ curl -L https://github.com/znuny/Znuny/archive/refs/tags/rel-7_3_8.tar.gz -o /op
 tar xfz znuny-7.3.8.tar.gz
 mv /opt/Znuny-rel-7_3_8/ /opt/znuny
 
+# apache2
+sudo apt update && sudo apt install -y apache2 libapache2-mod-perl2
+sudo a2dismod mpm_event
+sudo a2enmod mpm_prefork
+
+sudo a2enmod perl headers filter
+sudo a2enmod perl headers filter deflate cgi ssl rewrite
+
 ```
