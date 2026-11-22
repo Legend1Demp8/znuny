@@ -18,4 +18,10 @@ sudo a2enmod perl headers filter deflate cgi ssl rewrite
 # user
 sudo useradd -d /opt/znuny -c 'Znuny user' -g www-data -s /bin/bash -M -N znuny
 
+# config
+cp /opt/znuny/Kernel/Config.pm.dist /opt/znuny/Kernel/Config.pm
+
+# set permissions
+/opt/znuny/bin/znuny.SetPermissions.pl
+
 ```
