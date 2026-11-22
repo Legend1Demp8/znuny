@@ -1,5 +1,7 @@
 # znuny
 
+https://github.com/genilsonaborges/znuny-commands/blob/main/Znuny_install_EN.md
+
 ## Install Ubuntu 26.04
 ```
 cd /opt
