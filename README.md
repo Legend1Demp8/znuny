@@ -139,3 +139,6 @@ sudo apt install libnet-smtp-perl
 sudo apt install libdigest-sha-perl
 sudo apt install libexcel-writer-xlsx-perl
 ```
+
+#### Last check
+<img width="1412" height="771" alt="image" src="https://github.com/user-attachments/assets/a161faf1-e2e4-41db-98ef-48ac9987187b" />
