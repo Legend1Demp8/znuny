@@ -25,7 +25,7 @@ cp /opt/znuny/Kernel/Config.pm.dist /opt/znuny/Kernel/Config.pm
 /opt/znuny/bin/znuny.SetPermissions.pl
 
 # check perl modules
-sudo apt install libpackage-stash-perl
-/opt/otrs/bin/otrs.CheckModules.pl
+sudo apt install libpackage-stash-perl libpackage-stash-xs-perl
+/opt/znuny/bin/otrs.CheckModules.pl
 
 ```
