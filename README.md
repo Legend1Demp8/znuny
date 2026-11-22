@@ -28,12 +28,11 @@ cp /opt/znuny/Kernel/Config.pm.dist /opt/znuny/Kernel/Config.pm
 /opt/znuny/bin/znuny.SetPermissions.pl
 
 ```
-### Perl Modules
-# check perl modules
+### Install Perl Modules
+#### Check Perl modules
+```
 sudo apt install libpackage-stash-perl libpackage-stash-xs-perl
 /opt/znuny/bin/otrs.CheckModules.pl
-
-```
 Apache::DBI
 Apache2::Reload
 Archive::Tar
@@ -84,4 +83,59 @@ XML::LibXML
 XML::LibXSLT
 XML::Parser
 YAML::XS
+```
+#### Install Perl modules
+```
+Установил помогло
+sudo apt install libapache-dbi-perl
+sudo apt install libarchive-zip-perl
+sudo apt install libcrypt-eksblowfish-perl
+sudo apt install libcrypt-jwt-perl
+sudo apt install libcrypt-openssl-x509-perl
+sudo apt install libcss-minifier-xs-perl
+sudo apt install libdata-uuid-perl
+sudo apt install libdatetime-perl
+sudo apt install libdbd-mysql-perl
+sudo apt install libdbd-odbc-perl
+sudo apt install libdbd-pg-perl
+sudo apt install libencode-hanextra-perl
+sudo apt install libhash-merge-perl
+sudo apt install libical-parser-perl
+sudo apt install libjavascript-minifier-xs-perl
+sudo apt install libmail-imapclient-perl
+sudo apt install libauthen-ntlm-perl
+sudo apt install libmoo-perl
+sudo apt install libnet-dns-perl
+sudo apt install libnet-ldap-perl
+sudo apt install libspreadsheet-xlsx-perl
+sudo apt install libtemplate-perl
+sudo apt install libtext-csv-xs-perl
+sudo apt install libxml-libxml-perl
+sudo apt install libxml-libxslt-perl
+sudo apt install libyaml-libyaml-perl
+
+Было установлено
+sudo apt install libapache2-reload-perl
+sudo apt install libarchive-tar-perl
+sudo apt install libauthen-sasl-perl
+sudo apt install libtimedate-perl
+sudo apt install libdatetime-timezone-perl
+sudo apt install libdbi-perl
+sudo apt install libio-socket-ssl-perl
+sudo apt install libjson-xs-perl
+sudo apt install libwww-perl
+sudo apt install libapache2-mod-perl2
+sudo apt install libtemplate-perl
+sudo apt install libtime-hires-perl
+sudo apt install libtime-piece-perl
+sudo apt install libxml-parser-perl
+
+Ненашел
+sudo apt install libjq-perl
+sudo apt install liblist-util-perl
+sudo apt install libnet-smtp-perl
+
+Установил не помогло
+sudo apt install libdigest-sha-perl
+sudo apt install libexcel-writer-xlsx-perl
 ```
